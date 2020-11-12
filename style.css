@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#satu{
+    background: url(./asset/image.png);
+    width: 100%;
+    height: 804px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1200px;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+nav .gambarnav {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav .gambarnav img {
+    width: 220px;
+    height: 25px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 20px;
+    display: inline;
+}
+
+nav li:nth-child(4) {
+    margin-right: 0px;
+}
+
+
+
+.atas {
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: #060826;
+    opacity: 0.8;
+    width: 100%;
+    height: 804px;
+    z-index: 1;
+}
+
+.konten {
+    display: flex;
+    margin: 160px auto;
+}
+
+.konten .kiri {
+    width: 60%;
+}
+
+.konten .kiri .kepala ul{
+    display: flex;
+}
+
+.konten .kiri .kepala a{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+hr {
+    margin-right: 10px;
+    justify-content: center;
+    width: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.konten .kiri .isikiri ul>li {
+    margin: 30px 0px 30px 0px;
+}
+
+.konten .kiri .isikiri ul>li a{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.konten .kanan {
+    margin: auto;
+    display: flex;
+    color: white;
+    width: 40%;
+    z-index: 20;
+    justify-content: center;
+}
+
+.konten .isikanan h1{
+    justify-content: center;
+    color: #d32626;
+}
+
+.konten .kanan .isikanan h1{
+    font-size: 46px;
+}
+
+.konten .kanan .isikanan p{
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.atasgambar {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background:url(./asset/konten.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    width: 100%;
+    height: 804px;
+}
+
+#pagedua {
+    position: static;
+    z-index: 0;
+    width: 100%;
+    height: 632px;
+}
+#pagedua .judul {
+    margin-bottom: 40px;
+}
+
+#pagedua .judul h3 {
+    font-size: 36px;
+}
+
+#pagedua .judul h1 {
+    font-size: 36px;
+    color: #d32626;
+}
+
+#pagedua .dua {
+    padding: 60px 0;
+}
+
+#pagedua .isibawah {
+    display: flex;
+}
+
+#pagedua .isibawah .gambarkiri {
+    width: 60%;
+}
+
+#pagedua .isibawah .gambarkiri img{
+    width: 491.44px;
+}
+
+#pagedua .kontenkanan{
+    width: 40%;
+}
+
+#pagedua .kontenkanan h1 {
+    font-size: 36px;
+}
+
+#pagedua .kontenkanan p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #9a9a9a;
+    margin: 20px 0;
+}
+
+#pagedua .kontenkanan .button {
+    display: flex;
+}
+
+#pagedua .kontenkanan .button .tombolsatu {
+    height: 45px;
+    padding: 0 20px;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#pagedua .kontenkanan .button .tomboldua {
+    height: 45px;
+    padding: 0 20px;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#pagedua .button button:nth-child(1){
+    margin-right: 20px;
+}
+
+#pagedua .kontenkanan .tomboltiga {
+    height: 40px;
+    background-color: #d32626;
+    border: none;
+    padding: 0 30px;
+    color: white;
+    margin: 30px 0;
+}
+
+#pagetiga {
+    width: 100%;
+    height: 687px;
+    background-color: #1F211D;
+}
+
+#pagetiga .tiga {
+    display: flex;
+    padding: 100px 0;
+}
+
+#pagetiga .bagkiri {
+    width: 50%;
+}
+
+#pagetiga .bagkiri h1{
+    color:  #d32626;
+    font-size: 40px;
+}
+
+#pagetiga .bagkiri form {
+    width: 95%;
+}
+
+#pagetiga .bagkiri .tombolshare {
+    background-color:  #d32626;
+    height: 45px;
+    width: 162px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#pagetiga .bagkanan {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+
+#pagetiga .bagkanan .copy {
+    margin-top: 130px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: white;
+}
+
+#pagetiga .bagkanan .footgambar {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: flex-end;
+}
+
+#pagetiga .bagkanan .footgambar img{
+    width: 80%;
+}
+
+#pagetiga .bagkanan .footsatu {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pagetiga .bagkanan .footsatu img{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+#pagetiga .bagkanan .footsatu p {
+    color: white;
+    text-align: right;
+    /* line-height: 40px; */
+    font-size: 20px;
+}
+
+#pagetiga .bagkanan .footdua {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pagetiga .bagkanan .footdua img{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+#pagetiga .bagkanan .footdua p {
+    font-size: 20px;
+    color: white;
+}
+
+
+
+#pagetiga .row {
+    margin: 20px 0;
+}
+
+#pagetiga .row input, textarea{
+    width: 100%;
+    border-radius: 3px;
+    padding: 1em;
+    font-style: italic;
+    border: 1px solid black;
+}
